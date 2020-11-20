@@ -1,0 +1,27 @@
+body{
+	/*background-image: url(./media/cover_citrus.jpg);
+	background-size: cover;*/
+	height: 2000px;
+}
+
+.p-0{
+	padding: 0;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	height: 50px;
+	width: 50px;
+}
+
+p{
+	font-family: "Bradley Hand", cursive;
+	font-size: 25px;
+	padding: 15px;
+}
+
+p.quote{
+	font-family: "Times New Roman", serif;
+	font-size: 30px; 
+	font-style: italic;	
+	text-align: right;
+}

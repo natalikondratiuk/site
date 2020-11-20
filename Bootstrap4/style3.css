@@ -1,0 +1,27 @@
+body{
+	background-image: url(./media/cover_citrus.jpg);
+	background-size: cover;
+}
+
+h1{
+	font-family: Luminari, fantasy;
+	font-size: 100px;
+	letter-spacing: 10px;
+	font-style: italic;
+	text-align: center;
+}
+
+span.letter{
+	font-family: "Breadly Hand", cursive;
+	font-size: 200%;
+	position: relative;
+	top: 5px;
+	color: red;
+	font-weight: bold;
+}
+
+p{
+	font-family: "Bradley Hand", cursive;
+	font-size: 35px;
+	text-indent: 1.5em;
+}

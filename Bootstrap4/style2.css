@@ -1,0 +1,90 @@
+body{
+	background-image: url(./media/coverForRecipes.jpg);
+	background-size: cover;
+}
+
+h1{
+	font-family: "Snell Roudhand", cursive;
+	font-size: 50px;
+	word-spacing: 20px;
+	font-style: italic;
+	text-align: center;
+}
+
+h2{
+	font-family: "Times New Roman", serif;
+	font-size: 40px;
+	font-style: italic;
+	text-decoration: underline;
+	text-align: center;
+}
+
+p.cooking{
+	word-spacing: 10px;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	font-style: italic;
+}
+
+p.note{
+	font-family: "Times New Roman", serif;
+	font-size: 30px;
+	font-style: italic;
+}
+
+ul.cherry{
+	list-style-image: url(./media/cherry_icon.png);
+	text-align: left;
+	font-family: "Times New Roman", serif;
+	font-size: 35px; 
+}
+
+ul.shrimps{
+	list-style-type: disc;
+	text-align: left;
+	font-family: "Times New Roman", serif;
+	font-size: 35px; 
+}
+
+ul.bread{
+	list-style-type: circle;
+	text-align: left;
+	font-family: "Times New Roman", serif;
+	font-size: 35px; 
+}
+
+ul.apples{
+	list-style-image: url(./media/apple_icon.png);
+	text-align: left;
+	font-family: "Times New Roman", serif;
+	font-size: 35px; 
+}
+
+ul.clafuti{
+	list-style-type: square;
+	text-align: left;
+	font-family: "Times New Roman", serif;
+	font-size: 35px; 
+}
+
+div.list{
+	margin-left: 550px;
+}
+
+div.text{
+	margin-left: 30px;	
+}
+
+span.letter{
+	font-family: "Breadly Hand", cursive;
+	font-size: 150%;
+	position: relative;
+	top: 10px;
+	color: red;
+	font-weight: bold;
+}
+
+p{
+	font-family: "Times New Roman", serif;
+	font-size: 30px; 
+}
