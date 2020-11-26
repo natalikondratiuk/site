@@ -1,0 +1,51 @@
+<html>    
+    <head>
+        <script>
+            function testFun() {
+                quota = $("#quotas").val();
+                alert(quota);
+            }
+        </script>
+    </head>
+    
+    <body>
+        <div id="admin" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content  animated bounceInDown">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        	<h4 class="modal-title">Settings</h4>
+
+                    </div>
+                    <div class="modal-body">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a href="#tab1" data-toggle="tab">Quota</a>
+
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="tab1">
+                                </br>
+                                <div id="table" class="col-lg-12"></div>
+                                <label for="Quota">Quota</label>
+                                <div class="input-group form-group">
+                                    <input type="text" name="quota" class="form-control" id="quotas" value="10" maxlength="20">
+                                    <div class="input-group-addon input-group-btn-custom ">	<span id="type">Gb</span> 
+                                    </div>
+                                </div>
+                            </div>
+                            </br>
+                            </br>
+                            <button type="submit" class="btn btn-primary" onclick="testFun()" id="admin">Submit</button>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

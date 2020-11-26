@@ -1,6 +1,6 @@
 body{
-	/*background-image: url(./media/cover_citrus.jpg);
-	background-size: cover;*/
+	background-color: #DEB887;
+	background-size: cover;
 	height: 2000px;
 }
 
@@ -13,10 +13,20 @@ body{
 	width: 50px;
 }
 
-p{
+.video-fluid {
+	width: 600px;
+	height: 360px;
+}
+
+p.navbar{
 	font-family: "Bradley Hand", cursive;
 	font-size: 25px;
 	padding: 15px;
+}
+
+p{
+	font-family: "Times New Roman", serif;
+	font-size: 20px;
 }
 
 p.quote{
